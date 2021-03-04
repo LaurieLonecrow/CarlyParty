@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  height: 2200px;
+  height: 3200px;
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -11,6 +11,11 @@ body {
   display: block;
 }
 
+.container {
+  flex: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .ml9 {
   max-width: 100%;
@@ -144,7 +149,7 @@ body {
   }
 }
 
-.space img{
+.space img {
   width: 50%;
   transform: rotate(-50deg);
 }
@@ -153,9 +158,21 @@ body {
   padding-top: 2em;
 }
 
+.spacep {
+  opacity: 0;
+  text-decoration: none;
+}
+
 .delay {
+  color: #00ffff;
+  font-weight: 200;
+  font-family: 'Mali', cursive;
+  position: relative;
+  padding: 0.2em 0.05em 0.1em 0.05em;
+  overflow: hidden;
   animation: fadeIn 2s ease 30s forwards;
   animation-delay: 30s;
+  z-index: 5;
 }
 
 .out {animation: fadeOut 2s ease 30s forwards;
