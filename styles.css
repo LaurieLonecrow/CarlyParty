@@ -163,6 +163,10 @@ body {
   text-decoration: none;
 }
 
+.spacea {
+  text-decoration: none;
+}
+
 .delay {
   color: #00ffff;
   font-weight: 200;
@@ -190,4 +194,8 @@ animation-delay: 20s;}
 
   .space img{
     width: 70%;}
+}
+
+.closing {
+  padding-top: 100px;
 }

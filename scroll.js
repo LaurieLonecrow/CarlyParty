@@ -106,7 +106,7 @@ tl.add({
 
 tl.add({
   targets: '.space',
-  translateY: [500,-1100],
+  translateY: [500,-1200],
   duration: 9500,
   easing: "easeInExpo",
 },"+=2000");
