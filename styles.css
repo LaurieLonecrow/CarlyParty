@@ -62,7 +62,7 @@ body {
 
 .ml7 {
   max-width: 100%;
-  position: relative;
+  position: absolute;
   font-weight: 900;
   font-size: 10vw;
 }
