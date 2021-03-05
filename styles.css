@@ -95,8 +95,8 @@ body {
   color: #000;
   font-size: 16px;
   opacity: 0;
-  animation: fadeIn 2s ease 12s forwards;
-  -webkit-animation: fadeIn 2s ease 12s forwards;
+  animation: fadeIn 2s ease 3s forwards;
+  -webkit-animation: fadeIn 2s ease 3s forwards;
   animation-iteration-count: 10;
 }
 
